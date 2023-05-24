@@ -1,0 +1,27 @@
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+  }
+  .container div {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+  }
+  .container div:not(:last-child) {
+    margin-right: 15px;
+  }
+  .container span {
+    border: 2px solid;
+    padding: 10px 20px;
+    border-radius: 6px;
+  }
+  .container span:not(:last-child) {
+    margin-right: 10px;
+  }
+  
